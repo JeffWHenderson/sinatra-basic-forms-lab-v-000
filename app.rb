@@ -10,7 +10,6 @@ class App < Sinatra::Base
   end
 
   get '/display_puppy' do
-  #  puppy = Puppy.new(name, breed, age)
     name = params[:name]
     breed = params[:breed]
     age = params[:age]
