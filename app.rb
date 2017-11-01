@@ -9,7 +9,7 @@ class App < Sinatra::Base
     erb :create_puppy
   end
 
-  get '/display_puppy' do
+  get '/new' do
     name = params[:name]
     breed = params[:breed]
     @age = params[:age]
